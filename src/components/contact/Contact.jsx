@@ -79,7 +79,7 @@ const Contact = () => {
               </div>
               <div className="box">
                 <h4>PHONE:</h4>
-                <p>Wazir Ser (M.D) 94165-04375</p>
+                <p>MR. Wazir Dhanda (M.D) 94165-04375</p>
               </div>
             </div>
 
