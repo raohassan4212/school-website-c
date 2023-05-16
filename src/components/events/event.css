@@ -1,0 +1,122 @@
+.event-bg {
+  background-image: url("../../../public/images/bg-event.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: fill;
+  padding: 20px 0;
+}
+
+.event-list-container {
+  background-color: #fff;
+    box-shadow: 0 0 10px gray;
+    margin: 40px auto;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.event-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.event-item:nth-of-type(odd) {
+  background-color: #fff8f8;
+}
+
+.event-item:nth-of-type(2n) {
+  background-color: #a89d9d;
+}
+.even:nth-of-type(odd) {
+  background-color: #f3f3f3;
+}
+
+.event-header > h4 {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+/* .event-header > h4:hover {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 2px 5px;
+  border-radius: 8px;
+} */
+
+.event-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.event-item,
+.event-items {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+/* 
+.event-item:hover {
+  background-color: #f2f2f2;
+}
+
+.event-item.selected {
+  background-color: #e8f5e9;
+} */
+
+.event-date {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8eaf6;
+  color: var(--primary-color);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 90px;
+  height: 90px; */
+  align-items: center;
+    background-color: #e8eaf6;
+    border-radius: 50%;
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: 700;
+    /* height: 60px; */
+    height: 90px;
+    justify-content: center;
+    text-align: center;
+    /* width: 60px; */
+    width: 90px;
+}
+
+.event-info {
+  margin-left: 20px;
+}
+
+.event-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.event-location {
+  margin-top: 5px;
+}
+
+.event-details {
+  margin-top: 20px;
+}
+
+.date-big {
+  font-size: 24px;
+  font-weight: lighter;
+} 
